@@ -69,6 +69,7 @@ int main()
 	auto last_packet = std::chrono::high_resolution_clock::now();
 
 	double sum_measurements = 0;
+	double sum_k_packet = 0;
 
 	for (size_t i = 0; i < read_file.getChunkCount(); i++){
 		auto now = std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::high_resolution_clock::now() - last_packet);
@@ -87,7 +88,8 @@ int main()
 			last_packet = std::chrono::high_resolution_clock::now();
 
 			sum_measurements += duration.count();
-			file << "packet №" << i + 1 << " time taken: " << duration.count() << " microseconds" << "\n";
+			sum_k_packet += 1000000 / duration.count();
+			file << "packet №" << i + 1 << " time taken: " << duration.count() << " microseconds; " << "packet/second: " << 1000000 / duration.count() << "\n";
 		}
 		catch (const std::runtime_error& e) {
 			file << "packet №" << i + 1 << " caught exception: " << e.what() << "\n";
@@ -99,7 +101,8 @@ int main()
 	auto duration = std::chrono::duration_cast<std::chrono::microseconds>(now_ - run_time);
 
 	file << std::endl;
-	file << "Average speed: " << sum_measurements / read_file.getChunkCount() << " microseconds" << std::endl;
+	file << "Average speed: " << sum_k_packet / read_file.getChunkCount() << " packet/second" << std::endl;
+	file << "Average time: " << sum_measurements / read_file.getChunkCount() << " microseconds" << std::endl;
 	file << "Run time: " << duration.count() << " microseconds"  << std::endl;
 
 	file << std::endl;
