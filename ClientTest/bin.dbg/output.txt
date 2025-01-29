@@ -1,59 +1,34 @@
 <###########################################>
 
-Measurement time: 29.01.2025  15:32:09
+Measurement time: 29.01.2025  17:13:03
 
 Configuration: 
 IP server: 127.0.0.1
 PORT: 8000
 Packet size: 128 byte
-Frequency packet: 10 microseconds
+Frequency packet: 100000 microseconds
 Number of packages: 10
 
-packet ¹1 time taken: 2061 microseconds
-packet ¹2 time taken: 5089 microseconds
-packet ¹3 time taken: 1993 microseconds
-packet ¹4 time taken: 1903 microseconds
-packet ¹5 time taken: 1937 microseconds
-packet ¹6 time taken: 2116 microseconds
-packet ¹7 time taken: 1774 microseconds
-packet ¹8 time taken: 2198 microseconds
-packet ¹9 time taken: 2193 microseconds
-packet ¹10 time taken: 5663 microseconds
-Average speed: 2692.7 microseconds
-Run time: 28766 microseconds
+packet ¹1 time taken: 903 microseconds; packet/second: 1107
+packet ¹2 time taken: 1998 microseconds; packet/second: 500
+packet ¹3 time taken: 1475 microseconds; packet/second: 677
+packet ¹4 time taken: 1484 microseconds; packet/second: 673
+packet ¹5 time taken: 1897 microseconds; packet/second: 527
+packet ¹6 time taken: 17750 microseconds; packet/second: 56
+packet ¹7 time taken: 1720 microseconds; packet/second: 581
+packet ¹8 time taken: 3170 microseconds; packet/second: 315
+packet ¹9 time taken: 1316 microseconds; packet/second: 759
+packet ¹10 time taken: 2120 microseconds; packet/second: 471
+
+Average speed: 566.6 packet/second
+Average time: 3383.3 microseconds
+Run time: 1033880 microseconds
 
 <------------------------------------------->
 
 <###########################################>
 
-Measurement time: 29.01.2025  15:33:29
-
-Configuration: 
-IP server: 127.0.0.1
-PORT: 8000
-Packet size: 128 byte
-Frequency packet: 100 microseconds
-Number of packages: 10
-
-packet ¹1 time taken: 27369 microseconds
-packet ¹2 time taken: 23773 microseconds
-packet ¹3 time taken: 18965 microseconds
-packet ¹4 time taken: 30419 microseconds
-packet ¹5 time taken: 24759 microseconds
-packet ¹6 time taken: 20803 microseconds
-packet ¹7 time taken: 9747 microseconds
-packet ¹8 time taken: 13983 microseconds
-packet ¹9 time taken: 6715 microseconds
-packet ¹10 time taken: 4038 microseconds
-
-Average speed: 18057.1 microseconds
-Run time: 187817 microseconds
-
-<------------------------------------------->
-
-<###########################################>
-
-Measurement time: 29.01.2025  15:34:08
+Measurement time: 29.01.2025  17:14:22
 
 Configuration: 
 IP server: 127.0.0.1
@@ -62,154 +37,20 @@ Packet size: 128 byte
 Frequency packet: 1000 microseconds
 Number of packages: 10
 
-packet ¹1 time taken: 4515 microseconds
-packet ¹2 time taken: 5006 microseconds
-packet ¹3 time taken: 8872 microseconds
-packet ¹4 time taken: 4756 microseconds
-packet ¹5 time taken: 2454 microseconds
-packet ¹6 time taken: 4839 microseconds
-packet ¹7 time taken: 4182 microseconds
-packet ¹8 time taken: 6602 microseconds
-packet ¹9 time taken: 9165 microseconds
-packet ¹10 time taken: 9242 microseconds
+packet ¹1 time taken: 1063 microseconds; packet/second: 940
+packet ¹2 time taken: 1628 microseconds; packet/second: 614
+packet ¹3 time taken: 440 microseconds; packet/second: 2272
+packet ¹4 time taken: 393 microseconds; packet/second: 2544
+packet ¹5 time taken: 2994 microseconds; packet/second: 334
+packet ¹6 time taken: 4791 microseconds; packet/second: 208
+packet ¹7 time taken: 1103 microseconds; packet/second: 906
+packet ¹8 time taken: 786 microseconds; packet/second: 1272
+packet ¹9 time taken: 1437 microseconds; packet/second: 695
+packet ¹10 time taken: 1945 microseconds; packet/second: 514
 
-Average speed: 5963.3 microseconds
-Run time: 115443 microseconds
-
-<------------------------------------------->
-
-<###########################################>
-
-Measurement time: 29.01.2025  15:37:17
-
-Configuration: 
-IP server: 127.0.0.1
-PORT: 8000
-Packet size: 128 byte
-Frequency packet: 100000 microseconds
-Number of packages: 10
-
-packet ¹1 time taken: 6627 microseconds
-packet ¹2 time taken: 3917 microseconds
-packet ¹3 time taken: 3952 microseconds
-packet ¹4 time taken: 5308 microseconds
-packet ¹5 time taken: 6313 microseconds
-packet ¹6 time taken: 5157 microseconds
-packet ¹7 time taken: 2936 microseconds
-packet ¹8 time taken: 2610 microseconds
-packet ¹9 time taken: 2297 microseconds
-packet ¹10 time taken: 1826 microseconds
-
-Average speed: 4094.3 microseconds
-Run time: 1068028 microseconds
-
-<------------------------------------------->
-
-<###########################################>
-
-Measurement time: 29.01.2025  15:43:58
-
-Configuration: 
-IP server: 127.0.0.1
-PORT: 8000
-Packet size: 128 byte
-Frequency packet: 100000 microseconds
-Number of packages: 10
-
-packet ¹1 time taken: 5106 microseconds
-packet ¹2 time taken: 3771 microseconds
-packet ¹3 time taken: 2766 microseconds
-packet ¹4 time taken: 2416 microseconds
-packet ¹5 time taken: 2307 microseconds
-packet ¹6 time taken: 4211 microseconds
-packet ¹7 time taken: 4593 microseconds
-packet ¹8 time taken: 3640 microseconds
-packet ¹9 time taken: 4256 microseconds
-packet ¹10 time taken: 3564 microseconds
-
-Average speed: 3663 microseconds
-Run time: 1036690 microseconds
-
-<------------------------------------------->
-
-<###########################################>
-
-Measurement time: 29.01.2025  16:14:51
-
-Configuration: 
-IP server: 127.0.0.1
-PORT: 8000
-Packet size: 128 byte
-Frequency packet: 100000 microseconds
-Number of packages: 10
-
-packet ¹1 time taken: 987 microseconds
-packet ¹2 time taken: 963 microseconds
-packet ¹3 time taken: 1057 microseconds
-packet ¹4 time taken: 1008 microseconds
-packet ¹5 time taken: 815 microseconds
-packet ¹6 time taken: 6056 microseconds
-packet ¹7 time taken: 1001 microseconds
-packet ¹8 time taken: 796 microseconds
-packet ¹9 time taken: 3642 microseconds
-packet ¹10 time taken: 984 microseconds
-
-Average speed: 1730.9 microseconds
-Run time: 1017417 microseconds
-
-<------------------------------------------->
-
-<###########################################>
-
-Measurement time: 29.01.2025  16:45:27
-
-Configuration: 
-IP server: 127.0.0.1
-PORT: 8000
-Packet size: 128 byte
-Frequency packet: 100000 microseconds
-Number of packages: 10
-
-packet ¹1 time taken: 1505 microseconds
-packet ¹2 time taken: 2416 microseconds
-packet ¹3 time taken: 920 microseconds
-packet ¹4 time taken: 2807 microseconds
-packet ¹5 time taken: 881 microseconds
-packet ¹6 time taken: 1160 microseconds
-packet ¹7 time taken: 1738 microseconds
-packet ¹8 time taken: 1915 microseconds
-packet ¹9 time taken: 1001 microseconds
-packet ¹10 time taken: 1403 microseconds
-
-Average speed: 1574.6 microseconds
-Run time: 1016880 microseconds
-
-<------------------------------------------->
-
-<###########################################>
-
-Measurement time: 29.01.2025  16:47:22
-
-Configuration: 
-IP server: 127.0.0.1
-PORT: 8000
-Packet size: 128 byte
-Frequency packet: 100000 microseconds
-Number of packages: 10
-
-packet ¹1 time taken: 2125 microseconds
-packet ¹2 time taken: 2287 microseconds
-packet ¹3 time taken: 1649 microseconds
-packet ¹4 time taken: 1869 microseconds
-packet ¹5 time taken: 1564 microseconds
-packet ¹6 time taken: 1388 microseconds
-packet ¹7 time taken: 1376 microseconds
-packet ¹8 time taken: 2078 microseconds
-packet ¹9 time taken: 1446 microseconds
-packet ¹10 time taken: 1888 microseconds
-
-Average speed: 1767 microseconds
-Run time: 1017698 microseconds
+Average speed: 1029.9 packet/second
+Average time: 1658 microseconds
+Run time: 26624 microseconds
 
 <------------------------------------------->
 

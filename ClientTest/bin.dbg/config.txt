@@ -2,4 +2,4 @@
 ip=127.0.0.1
 port=8000
 packet_size=128
-frequency=100000
+frequency=1000
